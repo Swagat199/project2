@@ -1,0 +1,79 @@
+ 
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ body{
+    background-color: #ff9f9f;
+    height: 100vh;
+    place-items: center;
+ }
+ .main{
+    width: 400px;
+    height: 450px;
+    background-color: rgba(13, 13, 13, 0.763);
+    position:relative;
+    border: 5px solid rgb(253, 53, 53);
+    border-radius: 10px; 
+    top: 20%;
+    left: 40%;
+
+ }
+ input{
+    width:90px;
+    height: 90px;
+    padding: 2px;
+    margin: 2px 0px;
+    position: relative;
+    left: 10px;
+    top: 25px;
+    height: 60px;
+    cursor: pointer;
+    font-size: px;
+    background-color: #ff82f3;
+    border-radius:10px ;
+    color: rgb(20, 17, 17);
+    box-shadow:0.5px 0.5px 1px 0.5px black;
+    
+ }
+ input:hover
+ {
+  background-color:rgb(255, 187, 232);
+  color: rgb(0, 0, 0);
+ }
+  .sign:hover{
+   background-color: rgb(167, 36, 36);
+   color: white;
+}
+ #result {
+   width: 370px;
+   position: relative;
+   height: 80px;
+   left: 0px;
+   top: 15px;
+   text-align: right;
+   padding: 3px 6px;
+   font-size: 40px;
+   border: 1px solid rgb(255, 255, 255);
+   display: flex;
+   margin: auto;
+   border-radius: 6px;
+   color: rgb(255, 255, 255);
+   background-color: rgb(51, 48, 48);
+   box-shadow: 1px 1px 10px 1px rgb(116, 114, 109);
+}
+.ac
+{
+  background-color: rgb(255, 211, 78);
+}
+.ac:hover
+{
+  background-color: rgb(241, 241, 178);
+}
+.sign
+{
+
+  background-color: rgb(249, 191, 239);
+}
+  
